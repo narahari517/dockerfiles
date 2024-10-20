@@ -1,5 +1,5 @@
 FROM almalinux:9
-ARG topic="devops" \
+ARG course="Devops with AWS" \
     duration="120hrs"
-RUN echo "topic: $topic, duration: $duration"
-CMD ["sleep", "200"]
+RUN echo "Course: $course, duration: $duration"
+CMD ["sleep", "100"]
